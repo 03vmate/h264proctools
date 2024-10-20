@@ -10,6 +10,8 @@ frame_map = {}
 total_count = 0
 for h264_file in h264_files:
     frames, frame_count = readh264(h264_file, -1)
+    if frame_count == 0:
+        continue
     print(f"{h264_file}: {frame_count} frames")
     frame_map[h264_file] = {"frame_count": frame_count, "starting_index": total_count}
     total_count += frame_count

@@ -1,8 +1,7 @@
 import cv2
 from typing import Final, List, Optional
 from numpy import ndarray
-
-
+import os
 
 def readh264(h264_file: str, nth_frame: Optional[int] = None) -> (List[ndarray], int):
     """
@@ -11,6 +10,8 @@ def readh264(h264_file: str, nth_frame: Optional[int] = None) -> (List[ndarray],
     :param nth_frame: Only read every nth frame. If None, read all frames. If -1, read no frames.
     :return: A list of frames read and the total number of frames in the video(counting non-read frames).
     """
+    if os.path.getsize(h264_file) == 0:
+        return [], 0
     cap = cv2.VideoCapture(h264_file)
 
     if not cap.isOpened():

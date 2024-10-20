@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5316cd5c-9a72-4679-8cc6-2768cb3e840e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/h264proctools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_frame_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readh264.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_frame_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_frame_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readh264.py" beforeDir="false" afterPath="$PROJECT_DIR$/readh264.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +67,7 @@
       <updated>1729440801775</updated>
       <workItem from="1729440803061" duration="616000" />
       <workItem from="1729441430228" duration="2551000" />
+      <workItem from="1729444757523" duration="82000" />
     </task>
     <servers />
   </component>
